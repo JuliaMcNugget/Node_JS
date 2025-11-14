@@ -14,10 +14,13 @@ const CountButton = (props)=>{
         }
         
     };
-
+    const buttonStyle = {
+        background: props.buttonColor,
+        borderRadius: "10px"
+    };
     return(
         <div>
-            <button onClick={handleClick}>+{props.incrementBy}</button>
+            <button onClick={handleClick} style={buttonStyle}>+{props.incrementBy}</button>
             <div>{currentCount}</div>
         </div>
     );

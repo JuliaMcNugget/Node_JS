@@ -1,3 +1,39 @@
+html{
+  background: ivory;
+}
+figure{
+  display: grid;
+  width: 350px;
+  height: 600px;
+  justify-content: center;
+  border: 1px solid gray;
+  justify-items: center;
+}
+div{
+  border: 1px solid gray;
+  padding:2rem;
+}
+section{
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+  gap: 10px
+}
+img{
+  display:block;
+  position: center;
+  width: 200px;
+  height: auto;
+}
+
+p{
+  display: block;
+  position:center;
+  align-content: center;
+  text-align: center;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
